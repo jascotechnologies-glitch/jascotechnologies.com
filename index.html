@@ -1,11 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Jasco Technologies</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jasco Technologies | Game Development Studio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:linear-gradient(135deg,#0f172a,#111827,#1e293b);
+    color:white;
+    overflow-x:hidden;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+h1{
+    font-size:70px;
+    color:#00d4ff;
+    text-shadow:0 0 20px #00d4ff;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    color:#d1d5db;
+    max-width:700px;
+    line-height:1.7;
+}
+
+.button{
+    margin-top:40px;
+    display:inline-block;
+    padding:15px 40px;
+    background:#00d4ff;
+    color:#000;
+    text-decoration:none;
+    font-size:18px;
+    border-radius:40px;
+    transition:.3s;
+    font-weight:bold;
+}
+
+.button:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 25px #00d4ff;
+}
+
+.section{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.section h2{
+    color:#00d4ff;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.card{
+    width:300px;
+    background:#1f2937;
+    border-radius:15px;
+    padding:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(0,212,255,.4);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#00d4ff;
+}
+
+footer{
+    background:#0f172a;
+    text-align:center;
+    padding:40px;
+    color:#bdbdbd;
+}
+
+footer a{
+    color:#00d4ff;
+    text-decoration:none;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:45px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+}
+</style>
+
 </head>
-<body style="font-family:Arial;text-align:center;padding:50px;">
-  <h1>Jasco Technologies</h1>
-  <p>We develop mobile games and applications.</p>
-  <p>Contact: info@yourdomain.com</p>
+
+<body>
+
+<section class="hero">
+
+<h1>🎮 Jasco Technologies</h1>
+
+<p>
+Creating immersive mobile games and innovative applications for Android, iOS, and beyond.
+We transform ideas into engaging gaming experiences.
+</p>
+
+<a href="mailto:jascotechnologies@gmail.com" class="button">
+Contact Us
+</a>
+
+</section>
+
+<section class="section">
+
+<h2>Our Expertise</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🎲 Mobile Games</h3>
+<p>
+High-quality 2D and 3D mobile games built with Unity.
+</p>
+</div>
+
+<div class="card">
+<h3>⚔ Multiplayer Games</h3>
+<p>
+Real-time multiplayer experiences using modern networking solutions.
+</p>
+</div>
+
+<div class="card">
+<h3>🚀 App Development</h3>
+<p>
+Custom Android & iOS applications with smooth performance and elegant UI.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2>Why Choose Us?</h2>
+
+<p style="max-width:850px;margin:auto;font-size:20px;line-height:1.8;color:#d1d5db;">
+At Jasco Technologies, we specialize in crafting engaging games, interactive experiences, and powerful mobile applications.
+Our goal is to deliver polished products with outstanding performance and memorable gameplay.
+</p>
+
+</section>
+
+<footer>
+
+<h3>Jasco Technologies</h3>
+
+<p>Email:
+<a href="mailto:jascotechnologies@gmail.com">
+jascotechnologies@gmail.com
+</a>
+</p>
+
+<p style="margin-top:15px;">
+© 2026 Jasco Technologies. All Rights Reserved.
+</p>
+
+</footer>
+
 </body>
 </html>
